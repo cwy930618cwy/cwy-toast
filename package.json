@@ -1,6 +1,6 @@
 {
   "name": "cwy-zh-toast",
-  "version": "0.1.6",
+  "version": "0.3.0",
   "description": "基于 Vue 的toast",
   "main": "lib/toast.umd.min.js",
   "keyword": "toast",
