@@ -15,5 +15,14 @@ Vue.use(Component.Toast);
 https://github.com/cwy930618cwy/cwy-toast
 ```
 
+## 使用方法
+```
+this.$toast.show({
+  showType: '', // 显示图标类型 'success'
+  toastMessage: '' // 显示的文字
+})
+```
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
