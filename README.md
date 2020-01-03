@@ -2,7 +2,7 @@
 
 ## 导入组件库
 ```
-import Component from '../packages/index';
+import Component from 'cwy-zh-toast';
 ```
 
 ## 注册组件库

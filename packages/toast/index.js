@@ -20,9 +20,9 @@ function install (vue) {
       }
       $vm.show = true
 
-      setTimeout(() => {
-        $vm.show = false
-      }, 3000)
+      // setTimeout(() => {
+      //   $vm.show = false
+      // }, 3000)
     },
     text (toastMessage) {
       this.show({
