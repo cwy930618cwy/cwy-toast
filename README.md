@@ -1,8 +1,18 @@
 # vue-toast
 
-## Project setup
+## 导入组件库
 ```
-参考 https://github.com/cwy930618cwy/cwy-toast 的examples文件夹的demo ☺
+import Component from '../packages/index';
+```
+
+## 注册组件库
+```
+Vue.use(Component.Toast);
+```
+
+## git 地址
+```
+https://github.com/cwy930618cwy/cwy-toast
 ```
 
 ### Customize configuration

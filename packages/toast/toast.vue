@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       toastMessage: 'sss',
-      show: true,
+      show: false,
       showType: ''
     }
   }

@@ -1,8 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import './components/toast/index' // 引用本地包
 
+// 导入组件库
+import Component from '../packages/index';
+
+// 注册组件库
+Vue.use(Component.Toast);
 
 Vue.config.productionTip = false
 
