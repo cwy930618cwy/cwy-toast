@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-import ToastComponent from '../../../packages/toast/toast'
+参考 https://github.com/cwy930618cwy/cwy-toast 的examples文件夹的demo ☺
 ```
 
 ### Customize configuration

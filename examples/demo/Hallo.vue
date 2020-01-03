@@ -8,11 +8,10 @@
 
 export default {
   created () {
-    window.console.log(this.$toast)
-    // this.$toast.show({
-    //   showType: 'success',
-    //   toastMessage: '222'
-    // })
+    this.$toast.show({
+      showType: 'success',
+      toastMessage: '222'
+    })
   }
 }
 </script>
