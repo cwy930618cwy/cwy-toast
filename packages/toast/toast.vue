@@ -1,4 +1,4 @@
-<template >
+<template>
   <div class="dialog" v-if="show">
     <div class="main" v-if="showType === ''">{{toastMessage}}</div>
     <div class="main" v-if="showType !== ''">
@@ -24,6 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .dialog {
+  z-index: 10000;
   position: fixed;
   // max-width: 80%;
   top: 50%;
