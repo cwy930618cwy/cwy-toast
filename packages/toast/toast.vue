@@ -26,13 +26,11 @@ export default {
 .dialog {
   z-index: 10000;
   position: fixed;
-  // max-width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 0.28rem;
   border-radius: 0.08rem;
-  z-index: 10;
   width: 100%;
   display: flex;
   justify-content: center;
